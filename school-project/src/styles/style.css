@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.smart-studio {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px;
+
+    background: #F5F5F5
+}
+
+.block-left {
+    max-width: 50%;
+}
+
+.block-right {
+    max-width: 50%;
+}
+
+.wrap-image {
+
+}

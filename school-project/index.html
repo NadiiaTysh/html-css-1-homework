@@ -3,9 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>COSMIC</title>
+        <link href="src/styles/style.css" rel="stylesheet">
+        <link href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="src/fonts/comfortaa/Comfortaa-VariableFont_wght.ttf" rel="stylesheet">
     </head>
     <body>
-        <nav>
+        <!-- <nav>
             <img src="src/images/PNG/COSMIC.png" alt="logo">
             <a href="#">Главная</a>
             <a href="#">О нас</a>
@@ -17,7 +21,7 @@
                 <img src="src/images/SVG/instagram.svg" alt="instagram">
             </div>
         </nav>
-        <header>
+        <header class="header">
             <div>
                 <h1>
                     Космический отдых на склонах Карпат: смотрим на звёзды из окна отеля
@@ -26,29 +30,33 @@
                 <a href="#">Подробнее ></a>
             </div>
             <img src="src/images/JPG/images_optimize/telescope.jpg" alt="telescope">
-        </header>
+        </header> -->
         <main>
-            <section>
-                <hr>
-                <img src="src/images/JPG/images_optimize/smart.jpg" alt="smart">
-                <div>
-                    <h2>Smart</h2>
-                    <p>
-                        При входе в дом расположен умный центр управленияя домом: климат — контроль, система безопасности, управление электрикой и др.
-                    </p>
-                    <a href="#">Подробнее ></a>
+            <section class="smart-studio">
+                <div class="block-left">
+                    <hr class="line-decor">
+                    <img class="wrap-image" src="src/images/JPG/images_optimize/smart.jpg" alt="smart">
+                    <div class="wrap-text">
+                        <h2 class="block-title">Smart</h2>
+                        <p class="block-desc">
+                            При входе в дом расположен умный центр управленияя домом: климат — контроль, система безопасности, управление электрикой и др.
+                        </p>
+                        <a class="button-item" href="#">Подробнее</a>
+                    </div>
                 </div>
-                <div>
-                    <h2>Studio</h2>
-                    <p>
-                        Основным пространством дома явлется кухня — студия с большими панорамными окнами. Из окон открывается прекрасный вид на горный ландшафт.
-                    </p>
-                    <a href="#">Подробнее ></a>
+                <div class="block-right">
+                    <div class="wrap-text">
+                        <h2 class="block-title">Studio</h2>
+                        <p class="block-desc">
+                            Основным пространством дома явлется кухня — студия с большими панорамными окнами. Из окон открывается прекрасный вид на горный ландшафт.
+                        </p>
+                        <a class="button-item" href="#">Подробнее</a>
+                    </div>
+                    <hr class="line-decor">
+                    <img class="wrap-image" src="src/images/JPG/images_optimize/studio.jpg" alt="studio">
                 </div>
-                <hr>
-                <img src="src/images/JPG/images_optimize/studio.jpg" alt="studio">
             </section>
-            <section>
+            <!-- <section>
                 <div>
                     <h3>Медовый месяц и семейный отдых</h3>
                     <div>МОЖНО ПОСМОТРЕТЬ НАС ПРЯМО СЕЙЧАС</div>
@@ -255,6 +263,6 @@
                     </form>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </body>
 </html>
