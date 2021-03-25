@@ -7,13 +7,20 @@ body {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.87);
     display: block;
-    margin: 0;
+    margin: 0 auto;
     max-width: 1440px;
     align-self: center;
 }
 
 ul {
     list-style-type: none;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .menu {
@@ -93,7 +100,7 @@ ul {
     height: 48px;
     width: 180px;
     background: #3B00DD;
-    border: 1px solid #3B00DD;
+    border: none;
     border-radius: 3px;
     font-weight: 500;
     font-size: 12px;
@@ -105,9 +112,13 @@ ul {
     position: relative;
 }
 
-.top__btn-span, .top__btn-img {
-    display: inline-block;
-    vertical-align: middle;
+.top__btn::after {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    bottom: 14px;
+    background-image: url("../images/SVG/arrow.svg");
 }
 
 .top__img {
