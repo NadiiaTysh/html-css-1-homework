@@ -3,13 +3,120 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.6)
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    margin: 0;
+    max-width: 1440px;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    background: #FAFAFA;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    margin: 0 0 0 48px;
+}
+
+.menu__list {
+    display: flex;
+    margin-right: auto;
+}
+
+.menu__list-item + .menu__list-item {
+    margin-left: 24px;
+}
+
+.menu__list-link {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.socials-nav {
+    margin-right: 120px;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+.social-link + .social-link {
+    margin-left: 22px;
+}
+
+.social-grey {
+    opacity: 0.4;
+}
+
+.header {
+    padding-left: 120px;
+    display: flex;
+}
+
+.header__container {
+    padding: 193px 0 100px;
+}
+
+.top__title {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 84px;
+    letter-spacing: -0.5px;
+}
+
+.top__text {
+    font-size: 24px;
+    line-height: 36px;
+    width: 486px;
+}
+
+.top__btn {
+    height: 48px;
+    width: 180px;
+    background: #3B00DD;
+    border: 1px solid #3B00DD;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.top__btn-span, .top__btn-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top__img {
+    display: block;
+    margin-left: 37px;
+    z-index: -2;
 }
 
 .smart-studio {
-    max-width: 1440px;
     margin: 0 auto;
     padding: 120px;
 
