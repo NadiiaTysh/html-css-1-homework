@@ -181,6 +181,73 @@ button {
     letter-spacing: 0.25px;
 }
 
+.honeymoon {
+    padding: 120px 98px 120px 121px;
+}
+
+.honeymoon-title-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.honeymoon-title {
+    margin: 0 auto 5px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #03DAC4;
+}
+
+.honeymoon-subtitle {
+    margin: 0 auto 41px;
+    width: 587px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.honeymoon-appartments-video {
+    display: grid;
+    grid-template-columns: 588px 1fr;
+    column-gap: 24px;
+}
+
+.honeymoon-appartments-video-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 67px 0 63px;
+    column-gap: 24px;
+    row-gap: 80px;
+}
+
+.honeymoon-appartments-video-inner {
+    width: 588px;
+}
+
+.honeymoon-icon {
+    display: inline;
+    margin-right: 16px;
+    height: 20px;
+}
+
+.honeymoon-info-title {
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+
+.honeymoon-info-desc {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
 .section-rooms {
     margin: 0 auto;
     padding: 67px 120px 127px;
@@ -280,6 +347,36 @@ button {
     background-image: url("../images/SVG/arrow.svg");
 }
 
+.section-portfolio {
+    margin: 0 auto;
+    padding: 112px 120px 120px;
+}
+
+.section-portfolio-title {
+    margin: 0 auto 128px;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 69px;
+    text-align: center;
+}
+
+.section-portfolio-imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.portfolio-first-large-img {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.portfolio-last-large-img {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+}
+
 .section-reviews {
     margin: 0 auto;
     height: 640px;
@@ -328,6 +425,7 @@ button {
 .review-decor {
     width: 200px;
     height: 0px;
+    background-color: #3B00DD;;
     border: 5px solid #3B00DD;
     margin: 0 auto 35px;
 }
@@ -484,4 +582,136 @@ button {
     font-style: normal;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+
+.footer-inner {
+    padding: 100px 120px 97px;
+}
+
+.footer-inner-top {
+    display: flex;
+}
+
+.footer-first-column {
+    height: 242px;
+    width: 384px;
+    margin-right: 330px;
+}
+
+.footer-logo {
+    margin-bottom: 36px;
+    height: 24px;
+}
+
+.footer-first-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-next-column {
+    width: 182px;
+}
+
+.footer-next-column:last-child {
+    margin-left: 124px;
+}
+
+.footer-next-column:last-child .footer-next-column-items {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-next-column-title {
+    margin: 0 auto 32px 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #03DAC4;
+}
+
+.footer-next-column-items {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-next-column-item {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.horizontal-line {
+    border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.footer-inner-bottom {
+    padding: 20px 120px 34px;
+    display: flex;
+}
+
+.footer-bottom-copyright {
+    margin: 23px 268px auto 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-form-wrapper {
+    display: flex;
+}
+
+.footer-bottom-subscr {
+    margin-right: 18px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+
+.footer-form {
+    margin-top: 6px;
+}
+
+.footer-form-label {
+    display: block;
+    background-color: #F5F5F5;
+    border: 4px solid #F5F5F5;
+    width: fit-content;
+    margin-top: -68px;
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.footer-form-input {
+    display: block;
+    height: 56px;
+    width: 384px;
+    z-index: 0;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(25, 25, 25, 0.32);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.footer-form-submit {
+    display: block;
+    margin: 7px 16px auto auto;
+    width: 20px;
+    height: 20px;
+    background: url('../images/SVG/telegram.svg');
+    border: none;
 }
