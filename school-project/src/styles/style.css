@@ -58,6 +58,7 @@ button {
 }
 
 .socials-nav {
+    display: flex;
     margin-right: 120px;
 }
 
@@ -65,12 +66,49 @@ button {
     text-decoration: none;
 }
 
-.social-link + .social-link {
-    margin-left: 22px;
+.social-all {
+    width: 18px;
+    height: 18px;
+    opacity: 0.4;
 }
 
-.social-grey {
-    opacity: 0.4;
+.social-all + .social-all {
+    margin-left: 22px;
+    background-repeat: no-repeat;
+}
+
+.social-all:hover,
+.social-all:focus {
+    opacity: 1;
+    transition: 250ms ease-in-out;
+}
+
+
+.social-facebook  {
+    background-image: url('../images/SVG/facebook.svg');
+}
+
+.social-facebook:hover,
+.social-facebook:focus  {
+    background-image: url('../images/SVG/facebook-blue.svg');
+}
+
+.social-twitter  {
+    background-image: url('../images/SVG/twitter.svg');
+}
+
+.social-twitter:hover,
+.social-twitter:focus  {
+    background-image: url('../images/SVG/twitter-blue.svg');
+}
+
+.social-instagram  {
+    background-image: url('../images/SVG/instagram.svg');
+}
+
+.social-instagram:hover,
+.social-instagram:focus  {
+    background-image: url('../images/SVG/instagram-blue.svg');
 }
 
 .header {
